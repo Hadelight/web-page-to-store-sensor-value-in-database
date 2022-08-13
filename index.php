@@ -9,10 +9,7 @@ if (isset($_GET['submit'])){
     mysqli_query($conn,$sql);
 }
 
-
-
 ?>
-
 
 <!DOCTYPE html>
 <html lang="en">
@@ -76,6 +73,4 @@ if (isset($_GET['submit'])){
 
 </form>
 </body>
-
-
 </html>
